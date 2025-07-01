@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ritik Joshi | Romantic Model</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fce4ec, #f8bbd0);
+      color: #3e3e3e;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #d81b60;
+      margin: 0;
+    }
+    p.tagline {
+      font-size: 1.2em;
+      color: #6a1b9a;
+      margin-top: 10px;
+    }
+    img.profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      margin: 20px auto;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .insta {
+      margin-top: 20px;
+      font-size: 1.1em;
+      color: #e91e63;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 30px;
+      background-color: #d81b60;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+    .cta-btn:hover {
+      background-color: #ad1457;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 30px 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      object-fit: cover;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="file_00000000ec6c6230a48f347dbb3ddff9.png" alt="Ritik Joshi" class="profile" />
+    <h1>Ritik Joshi</h1>
+    <p class="tagline">Meeting with girls & women 💕</p>
+    <p class="insta">@ritikjoshi2.0</p>
+    <a class="cta-btn" href="https://instagram.com/ritikjoshi2.0" target="_blank">DM Me on Instagram 💘</a>
+  </header>
+
+  <section class="gallery">
+    <img src="IMG_20250701_074648_145.jpg" alt="Insta 1" />
+    <img src="IMG_20250701_074450_894.jpg" alt="Insta 2" />
+    <img src="IMG_20250701_074540_910.jpg" alt="Insta 3" />
+    <img src="Screenshot_20250701_074151_Instagram.jpg" alt="Insta 4" />
+    <img src="IMG_20250701_074619_150.jpg" alt="Insta 5" />
+  </section>
+
+</body>
+</html>
